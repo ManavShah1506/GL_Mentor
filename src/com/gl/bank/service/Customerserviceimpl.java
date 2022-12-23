@@ -7,7 +7,10 @@ import com.gl.bank.model.Customer;
 public class Customerserviceimpl implements CustomerService {
 	static Scanner sc = new Scanner(System.in);
 	
+	
 	Customer theCustomer = new Customer(sc.nextLine(),sc.nextLine());
+	
+	
 	int bankBalance = sc.nextInt();
 	
 
